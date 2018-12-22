@@ -1,0 +1,58 @@
+name: CypherniasStaffEssentials
+description: Staff Essentials by Kai
+version: 1.3.4
+main: cse.plugin.Plugin
+commands:
+  CypherniaStaffEssentials:
+    description: Type /cse to get help
+    aliases: [cse]
+  clearchat:
+    description: Type /clearchat to clear chat
+  freeze:
+    description: Type /freeze to freeze all players
+    aliases: [fr]
+  unfreeze:
+    description: Type /unfreeze to unfreeze all players
+    aliases: [uf]
+  staffchat:
+    description: Type /sc to enter staff chat
+    aliases: [sc]
+  silentjoin:
+    description: Type /sj to turn on silent join
+    aliases: [sj]
+  stafflist:
+    description: Type /sl to list all online staff
+    aliases: [slist, sl, staffonline, sonline, so]
+  vanish:
+    description: Type /vanish to vanish from all other players (aside from other staff)
+    aliases: [v]
+  maintenance:
+    description: Type /maintenance [message] to enter maintenance mode
+  alert:
+    description: Type /alert <message> to alert a staff member
+    aliases: [al]
+  warn:
+    description: Type /warn <player> <message> to warn a player in chat
+Permissions:
+  cse.command.clearChat:
+    description: Allows the player to clear his and others' chat
+  cse.command.freeze:
+    description: Allows the player to freeze players
+  cse.bypass.freeze:
+    description: Allows the player to bypass the freeze command
+  cse.command.staffChat:
+     description: Allows the player to speak into the staff chat
+  cse.staff:
+    description: Counts the player as a staff member, shows up in staff list command output
+  cse.command.vanish:
+    description: Allows the player to use the vanish command
+  cse.seeVanished:
+    description: Allows the player to see vanished players
+  cse.command.maintenance:
+    description: Allows the player to activate maintenance mode
+  cse.bypass.maintenace:
+    description: Allows the player to login while maintenance mode is active
+  cse.command.warn:
+    description: Allows the player to warn other players
+  cse.command.silentJoin:
+    description: Allows the player to join silently

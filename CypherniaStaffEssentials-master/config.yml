@@ -1,0 +1,37 @@
+# Messages:
+prefix: "&7[&aCyphernia's Staff Essentials&7] &r"
+staff-chat: "&7[&aSC&7] [&a%server%&7]&r %rank%%player%: %message%"
+no-perms-message: "&cYou do not have permission to do that!"
+to-many-args: "&bYou entered in too many arguments!"
+
+# Clear Chat:
+cleared-chat-message: "&bChat has been cleared by: %player%"
+
+# Freeze:
+freeze-message: "&bYou have been frozen!"
+unfreeze-message: "&bYou have been unfrozen!"
+
+# Silent Join:
+see-silent-join-message: "&b%player% has joined silently!"
+
+# Staff List:
+staff-list-message:
+- "&aStaff Online: %staffcount%"
+- "&bStaff with Name: %staff%"
+
+# Vanish:
+leave-message: "&e%player% has left the game"
+join-message: "&e%player% has joined the game"
+
+# Maintenance:
+maintenance-message: "The server is in maintenance mode."
+
+# Alert:
+alert-message-format: "&7[&cStaffAlert&7]&r %player%: %message%"
+
+# Warnings:
+warn-message-format: "&7[&cWarning&7]&r You have been warned for \"%reason%\"!"
+
+# Data:
+maintenance: false
+vanished-players: []
